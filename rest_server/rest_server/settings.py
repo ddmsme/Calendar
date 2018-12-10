@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework_swagger',
-    'member'
+    'member',
+    'calendar2019'
 ]
 
 MIDDLEWARE = [
