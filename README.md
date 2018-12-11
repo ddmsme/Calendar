@@ -6,6 +6,7 @@
 
 Django를 이용해 Restful한 API 서버를 구축 (두번째 미니 프로젝트)
 -------
+   Google GCP
    Ubuntu 16.04-64-server
    Python 3.5.2
    Django 2.0.5
@@ -64,12 +65,11 @@ Django 세팅
      ]
 
 
-
 클라우드 서비스개발 전문가 과정 (2018.09.17 ~ 2019.02.28)
 -------
 [ 두번째 미니프로젝트 ]
 -------
-     안응철 http://api.gcp.elimao.site
-     오동진 http://api.gcp.bestcloud.kr
-     신동민 http://api.gcp.ddms.me
-     한열   http://api.gcp.hanyeol.com
+     안응철 http://api.gcp.elimao.site/api/v1/calendar/
+     오동진 http://api.gcp.bestcloud.kr/api/v1/calendar/
+     신동민 http://api.gcp.ddms.me/api/v1/calendar/
+     한열   http://api.gcp.hanyeol.com/api/v1/calendar/
