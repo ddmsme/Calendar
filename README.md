@@ -63,6 +63,27 @@ Django 세팅
      'rest_framework_swagger'
      ]
      
+     $ (rest_env) root@rest-api:~/rest_server# pwd
+        /home/jajangjajang/rest_server
+     $ (rest_env) root@rest-api:~/rest_server#
+     
+     $ python manage.py startapp member
+  그리고 rest_server/settings.py 파일에 Installed App에 방금 생성한 앱을 추가해준다.
+      INSTALLED_APPS = [
+     'django.contrib.admin',
+     'django.contrib.auth',
+     'django.contrib.contenttypes',
+     'django.contrib.sessions',
+     'django.contrib.messages',
+     'django.contrib.staticfiles',
+     'rest_framework',
+     'rest_framework_swagger',
+     'member'
+]
+
+     
+     
+     
 Django 재실행
 -------
     $source ~/rest_env/bin/activate (가상머신 접근)
