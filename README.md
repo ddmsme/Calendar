@@ -67,7 +67,7 @@ Django 세팅
 
 클라우드 서비스개발 전문가 과정 (2018.09.17 ~ 2019.02.28)
 -------
-[ 두번째 미니프로젝트 ]
+[ 두번째 프로젝트 ]
 -------
      안응철 http://api.gcp.elimao.site/api/v1/calendar/
      오동진 http://api.gcp.bestcloud.kr/api/v1/calendar/
