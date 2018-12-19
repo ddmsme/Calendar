@@ -4,7 +4,7 @@
 
 
 
-Django를 이용해 Restful한 API 서버를 구축 (두번째 미니 프로젝트)
+Django를 이용해 Restful한 API 서버를 구축 (두번째 프로젝트)
 -------
    Google GCP
    Ubuntu 16.04-64-server
