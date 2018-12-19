@@ -23,14 +23,6 @@ Django를 이용해 Restful한 API 서버를 구축 (두번째 프로젝트)
    $ python --version
    $ python3 --version
 
-Django 재실행
--------
-   $ source ~/rest_env/bin/activate (가상머신 접근)
-   $nohup python3 manage.py runserver 0.0.0.0:80 & (재실행)
-   $ls -l
-   $kill -9 <PID>
-
-
      이어서 가상환경을 세팅해주기 위해 virtualenv를 설치해준다.
      $ apt-get install virtualenv
      $ exit
@@ -70,6 +62,13 @@ Django 세팅
      'rest_framework',
      'rest_framework_swagger'
      ]
+     
+Django 재실행
+-------
+    $source ~/rest_env/bin/activate (가상머신 접근)
+    $nohup python3 manage.py runserver 0.0.0.0:80 & (재실행)
+    $ls -l
+    $kill -9 <PID>
 
 
 클라우드 서비스개발 전문가 과정 (2018.09.17 ~ 2019.02.28)
