@@ -178,6 +178,28 @@ Postman은 개발한 API를 테스트하고, 테스트 결과를 공유하여 AP
 ![순서](https://github.com/ddmsme/Calendar/blob/master/img/1.jpg)<br><br><br>
 
 
+<br><br><br>
+2. Postman 프로그램을 실행하면 아래 그림과 같은 화면이 나타납니다.<br><br><br>
+
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/2.jpg)<br><br><br>
+
+
+<br><br><br>
+3. API 테스트를 위해 콜렉션(Collection)을 하나 생성합니다. Collection이름은 __calendar__ 로 지정하고 생성(Create) 버튼을 클릭합니다.<br>
+참고로 Collection명은 임의로 설정 가능합니다.<br><br><br>
+
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/3.jpg)<br><br><br>
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/4.jpg)<br><br><br>
+
+<br><br><br>
+4. 해당 콜렉션(Collection)에 마우스 오른쪽 버튼을 클릭 후 Request를 하나 추가합니다. <br>
+Request Name은 __달력정보 가져오기 get__ 외에 임의로 지정 가능합니다.<br><br><br>
+
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/5.jpg)<br><br><br>
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/6.jpg)<br><br><br>
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/7.jpg)<br><br><br>
+
+
 
 클라우드 서비스개발 전문가 과정 (2018.09.17 ~ 2019.02.28)
 -------
