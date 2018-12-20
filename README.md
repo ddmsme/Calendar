@@ -149,6 +149,15 @@ API 뷰 만들기
 Django 재실행
 -------
     $source ~/rest_env/bin/activate (가상머신 접근)
+    $cd rest_server/
+    $ ls -l
+       total 28
+      drwxr-xr-x 4 root root 4096 Dec 11 02:19 calendar2019
+      -rw-r--r-- 1 root root 5120 Dec 11 02:16 db.sqlite3
+      -rwxr-xr-x 1 root root  543 Dec 11 00:56 manage.py
+      drwxr-xr-x 4 root root 4096 Dec 11 01:14 member
+      -rw------- 1 root root 1530 Dec 19 01:04 nohup.out
+      drwxr-xr-x 3 root root 4096 Dec 11 02:23 rest_server
     $nohup python3 manage.py runserver 0.0.0.0:80 & (재실행)
     $ls -l
     $kill -9 <PID>
