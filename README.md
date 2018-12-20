@@ -210,6 +210,41 @@ __Request Name__ 은 달력정보 가져오기 get 외에 임의로 지정 가�
 ![순서](https://github.com/ddmsme/Calendar/blob/master/img/11.jpg)<br><br><br>
 
 
+<br><br><br>
+6. 그럼 등록된 API주소에 접속하여 필요한 날짜 정보를 가져와보겠습니다. 우선 환경변수를 사용하기 위해 등록한 환경변수(calender_env)를 선택후<br>
+Postman에 등록된 Request(달력 가져오기 get)을 클릭후 나타나는 오른쪽 화면에서 그림에 표시된 것 같이 __{{end_point)}__ 라는 값을 입력합니다.<br> {{end_point}}는 방금전 등록한 환경변수를 의미합니다. 정보가 정확히 입력되었다면 __send__ 버튼을 클릭하여 결과를 확인합니다.<br><br><br>
+
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/12.jpg)<br><br><br>
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/13.jpg)<br><br><br>
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/14.jpg)<br><br><br>
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/15.jpg)<br><br><br>
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/16.jpg)<br><br><br>
+
+
+7. 그럼 다음엔 등록된 API를 이용하여 데이터를 입력하는 설정을 해보도록 하겠습니다. <br>
+우선 위쪽에서 __Request__ 를 등록했던 부분과 동일하게 우선 Request를 하나 추가합니다. 이번에 등록할 Request의 이름은 달력정보 입력하기 - post<br>
+입력 후 해당 Request를 클릭 후 요청정보를 get->post로 변경 후 저장(Save)합니다. <br><br><br>
+
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/17.jpg)<br><br><br>
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/18.jpg)<br><br><br>
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/19.jpg)<br><br><br>
+
+7.2 등록한 __Request '달력정보 입력하기 - post'__ 주소입력창에 __환경변수 {{end_point}}__ 를 설정 후에 입력할 데이터를 지정하기 위해서 설정이 필요합니다. (두번째 이미지 참고) 여기서 __KEY__ 란? API에서 사용되는 변수명 __VALUE__ 는 입력될 데이터라 생각하시면 될 것 같습니다.
+
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/20.jpg)<br><br><br>
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/24.jpg)<br><br><br>
+
+<br><br><br>
+7.3 설정 후 __Send__ 를 클릭합니다. 값이 정상적으로 입력이 되면 화면 아래에 입력된 값이 표시됩니다.<br>
+입력이 확인되었다면 __Request '달력정보 가져오기 - get'__ 을 실행해보면 등록된 값이 표시됩니다.
+<br><br><br>
+
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/22.jpg)<br><br><br>
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/23.jpg)<br><br><br>
+
+
+
+<br><br><br>
 클라우드 서비스개발 전문가 과정 (2018.09.17 ~ 2019.02.28)
 -------
 [ 두번째 프로젝트 ]
