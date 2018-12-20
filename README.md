@@ -158,7 +158,7 @@ Django 재실행
 -------
 [ 두번째 프로젝트 ]
 -------
-     안응철 [link]http://api.gcp.elimao.site/api/v1/calendar/(http://api.gcp.elimao.site/api/v1/calendar/)
+     안응철 ![link]http://api.gcp.elimao.site/api/v1/calendar/(http://api.gcp.elimao.site/api/v1/calendar/)
      오동진 http://api.bestcloud.kr/api/v1/calendar/
      신동민 http://api.gcp.ddms.me/api/v1/calendar/
      한열   http://api.gcp.hanyeol.com/api/v1/calendar/
