@@ -169,8 +169,13 @@ Django 재실행
 __Postman이란?__
 
 Postman은 개발한 API를 테스트하고, 테스트 결과를 공유하여 API 개발의 생산성을 높여주는 플랫폼 입니다.<br>
-위에서 Django를 이용하여 작성한 API를 테스트하기 위하여 Postman을 설치후, API를 테스트하기 위한 환경설정 후 데이터 입/출력 테스트를 진행합니다.<br><br><br>
+위에서 Django를 이용하여 작성한 API를 테스트하기 위하여 Postman을 설치후, API를 테스트하기 위한 환경설정 후 데이터 입/출력 테스트를 진행합니다.<br><br><br><br>
 
+<br><br><br>
+1. Postman 프로그램을 다운로드 받기위해 해당 사이트로 이동(회원가입이 필요합니다 ^^)<br><br><br>
+
+
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/1.jpg)<br><br><br>
 
 
 
