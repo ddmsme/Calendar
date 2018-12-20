@@ -163,6 +163,15 @@ Django 재실행
     $nohup python3 manage.py runserver 0.0.0.0:80 & (재실행)
     $ls -l
     $kill -9 <PID>
+    
+# (추가내용) Postman을 활용한 API 예제
+
+__Postman이란?__
+
+Postman은 개발한 API를 테스트하고, 테스트 결과를 공유하여 API 개발의 생산성을 높여주는 플랫폼 입니다.<br>
+위에서 Django를 이용하여 작성한 API를 테스트하기 위하여 Postman을 설치후, API를 테스트하기 위한 환경설정 후 데이터 입/출력 테스트를 진행합니다.<br><br><br>
+
+
 
 
 클라우드 서비스개발 전문가 과정 (2018.09.17 ~ 2019.02.28)
