@@ -192,13 +192,22 @@ Postman은 개발한 API를 테스트하고, 테스트 결과를 공유하여 AP
 ![순서](https://github.com/ddmsme/Calendar/blob/master/img/4.jpg)<br><br><br>
 
 <br><br><br>
-4. 해당 콜렉션(Collection)에 마우스 오른쪽 버튼을 클릭 후 Request를 하나 추가합니다. <br>
-Request Name은 __달력정보 가져오기 get__ 외에 임의로 지정 가능합니다.<br><br><br>
+4. 해당 콜렉션(Collection)에 마우스 오른쪽 버튼을 클릭 후 __Request__ 를 하나 추가합니다. <br>
+__Request Name__ 은 달력정보 가져오기 get 외에 임의로 지정 가능합니다.<br><br><br>
 
 ![순서](https://github.com/ddmsme/Calendar/blob/master/img/5.jpg)<br><br><br>
 ![순서](https://github.com/ddmsme/Calendar/blob/master/img/6.jpg)<br><br><br>
 ![순서](https://github.com/ddmsme/Calendar/blob/master/img/7.jpg)<br><br><br>
 
+<br><br><br>
+5. 해당 콜렉션에서 사용할 __환경변수__ 설정을 하기위해 Postman오른쪽 상단에 아래에 그림과 같은 설정 버튼을 클릭해주세요. <br>
+클릭 후 __Manage Enviroment__ 창에 Add버튼을 클릭합니다. 환경변수 입력창에 이름과 등록할 환경 변수와 값을 입력합니다.(이미지 참고)<br><br><br>
+
+
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/8.jpg)<br><br><br>
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/9.jpg)<br><br><br>
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/10.jpg)<br><br><br>
+![순서](https://github.com/ddmsme/Calendar/blob/master/img/11.jpg)<br><br><br>
 
 
 클라우드 서비스개발 전문가 과정 (2018.09.17 ~ 2019.02.28)
