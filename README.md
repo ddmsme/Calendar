@@ -150,6 +150,8 @@ Django 재실행
 -------
     $source ~/rest_env/bin/activate (가상머신 접근)
     $cd rest_server/
+    $pwd
+       /home/username/rest_server
     $ ls -l
        total 28
       drwxr-xr-x 4 root root 4096 Dec 11 02:19 calendar2019
